@@ -1,4 +1,6 @@
-<?php include 'db.php'; ?>
+<?php 
+
+include 'db.php'; ?>
 
 <h2>Registered Students</h2>
 <a href="create.php">+ Add New Student</a>
@@ -23,3 +25,5 @@ while($row = $res->fetch_assoc()):
 </tr>
 <?php endwhile; ?>
 </table>
+
+?>

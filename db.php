@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "student_registration";
+$db = "student_regestration";
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
